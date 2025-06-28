@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="GR7 Gaming Hub - Play FC 25, DLS 25, and more. Join the ultimate gaming experience.">
+  <title>GR7 GAMING HUB</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #0f0f0f;
+      color: #fff;
+    }
+    header {
+      background: #111;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      color: #00ff99;
+    }
+    nav {
+      text-align: center;
+      padding: 10px;
+      background: #1a1a1a;
+    }
+    nav a {
+      color: #00ff99;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 40px 20px;
+      background: linear-gradient(to right, #1a1a1a, #000);
+    }
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+    .games {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .game {
+      background: #1e1e1e;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 0 10px #00ff99;
+    }
+    .game img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .game h3 {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      color: #00ffcc;
+    }
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>GR7 GAMING HUB</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Games</a>
+    <a href="#">News</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Welcome to GR7 GAMING HUB</h2>
+    <p>The ultimate hub for mobile, PC, and console games. Join millions of gamers and level up your play!</p>
+  </section>
+
+  <section class="games">
+    <div class="game">
+      <img src="https://via.placeholder.com/300x180?text=FC+25" alt="FC 25">
+      <h3>FC 25 Mobile</h3>
+      <p>Experience the next-gen football simulation.</p>
+    </div>
+    <div class="game">
+      <img src="https://via.placeholder.com/300x180?text=DLS+25" alt="DLS 25">
+      <h3>DLS 25</h3>
+      <p>Build your dream team and conquer leagues.</p>
+    </div>
+    <div class="game">
+      <img src="https://via.placeholder.com/300x180?text=COMING+SOON" alt="More games coming">
+      <h3>More Games</h3>
+      <p>Stay tuned for epic new titles every week.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 GR7 GAMING HUB. All rights reserved.
+  </footer>
+
+</body>
+</html>
